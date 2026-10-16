@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.invicible{
+    color: gainsboro;
+}
+.button{
+    background-color: red;
+    border-radius: 15px;
+    height: 60px;
+    width: 60px;
+}
+.line{
+    border-bottom: 3px solid red;
+}
+.border{
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.text{
+    display: flex;
+    text-align: center;gap: 20px;
+}

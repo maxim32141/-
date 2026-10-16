@@ -1,0 +1,45 @@
+.sidebar{
+    background-color: gray;
+}
+.sidebaritem{
+    width: 30px;
+}
+/*Анимации карточки
+Точка А
+Ширина меню 35px */
+.sidebarbackground{
+    background-color: gray;
+    height: 155px;
+    width: 35px;
+    transition: 0.7s;
+    padding: 10px;
+
+}
+/*Ширина меню 150px за 0.7с происходит
+изменение ширины*/
+.sidebarbackground:hover{
+    width: 150px;
+    transition: 0.7s;
+}
+/*Изначально текст видимым когда на карточку наводится
+курсор мыши*/
+.sidebarbackground:hover .sidebartext{
+    opacity: 1;
+}
+/*Изначально текст невидимым*/
+.sidebartext{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    /*padding-bottom: 10px;*/
+    opacity: 0;
+}
+.sidebar{
+    background-color: rgba(128, 128, 128, 0);
+    display: flex;
+    align-items: center;
+    left: 0;/*приклеплели к левом краю*/
+    transition: 0.5s ease;
+}   
+.sidebar:hover{
+    background-color: rgb(123, 57, 57);
+}
